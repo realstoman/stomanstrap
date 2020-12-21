@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/nstoman/stomanstrap/issues"
   },
-  "homepage": "https://github.com/nstoman/stomanstrap#readme"
+  "homepage": "https://github.com/nstoman/stomanstrap#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.6.0",
+    "bootstrap": "^5.0.0-beta1",
+    "popper.js": "^1.16.1"
+  }
 }
