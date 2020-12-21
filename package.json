@@ -20,5 +20,9 @@
     "@popperjs/core": "^2.6.0",
     "bootstrap": "^5.0.0-beta1",
     "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.30.0"
   }
 }
