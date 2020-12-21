@@ -1,0 +1,19 @@
+{
+  "name": "stomanstrap",
+  "version": "1.0.0",
+  "description": "StomanStrap Bootstrap 5 Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nstoman/stomanstrap.git"
+  },
+  "author": "Nangialai Stoman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nstoman/stomanstrap/issues"
+  },
+  "homepage": "https://github.com/nstoman/stomanstrap#readme"
+}
