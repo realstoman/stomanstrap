@@ -7,4 +7,4 @@
 // Import Other JS Files, Libraries & Vendors
 import { stoman } from './js/app';
 
-document.querySelector('');
+document.querySelector('h1').textContent = stoman('Hi, how are you?');
