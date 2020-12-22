@@ -5,6 +5,9 @@
 */
 
 // Import Other JS Files, Libraries & Vendors
+import 'popper.js';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap';
 import { stoman } from './js/app';
 
 document.querySelector('h1').textContent = stoman('Hi, how are you?');
