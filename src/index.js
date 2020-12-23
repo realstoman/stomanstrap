@@ -8,6 +8,7 @@
 import 'popper.js';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap';
+import 'animate.css';
 import './sass/app.scss';
 import { stoman } from './js/app';
 
