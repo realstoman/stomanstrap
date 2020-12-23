@@ -1,6 +1,6 @@
 /***
 * StomanStrap Main Template JS File
-* Powered by: Nangialai Stoman
+* Coded By: @NangialaiStoman
 */
 
 const stoman = (sayHi) => {
