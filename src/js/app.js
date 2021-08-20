@@ -1,10 +1,10 @@
 /***
-* StomanStrap Main Template JS File
-* Coded By: @NangialaiStoman
-*/
+ * StomanStrap Main Template JS File
+ * Coded By: @NangialaiStoman
+ */
 
 const stoman = (sayHi) => {
-    return `${sayHi}, whats up`;
-}
+	// return `${sayHi}, whats up`;
+};
 
-export { stoman }
+export { stoman };
