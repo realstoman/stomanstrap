@@ -1,8 +1,8 @@
 /***
-* StomanStrap Entry Point JS File
-* This File Compiles All JS Code & Other Vendors Through Parcel Bundler
-* Coded By: @NangialaiStoman
-*/
+ * StomanStrap Entry Point JS File
+ * This File Compiles All JS Code & Other Vendors Through Parcel Bundler
+ * Coded By: @NangialaiStoman
+ */
 
 // Import Other JS Files, Libraries & Vendors
 import 'popper.js';

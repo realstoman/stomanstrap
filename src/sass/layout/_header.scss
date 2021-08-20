@@ -2,3 +2,15 @@
 * StomanStrap Portfolio Theme Header Design File
 * Coded By: @NangialaiStoman
 */
+
+.stoman-header {
+    .stoman-cta {
+        .stoman-hireme {
+            border: none;
+            background-color: $primary-stoman !important;
+        }
+        .stoman-hireme:hover {
+            background-color: $primary-stoman-hover !important;
+        }
+    }
+}
