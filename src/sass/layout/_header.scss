@@ -4,6 +4,27 @@
 */
 
 .stoman-header {
+	.stoman-nav {
+		ul {
+			li {
+				margin: 0 10px !important;
+			}
+
+			li a {
+				color: $stoman-dark-ternary !important;
+				font-size: 17px;
+			}
+
+			li a:hover {
+				color: $primary-stoman !important;
+				font-size: 17px;
+			}
+
+			li a.active {
+				color: $primary-stoman-hover !important;
+			}
+		}
+	}
 	.stoman-cta {
 		.stoman-hireme {
 			border: none;
