@@ -1,0 +1,35 @@
+/***
+* StomanStrap Banner Design File
+* Coded By: @NangialaiStoman
+*/
+
+.stoman-banner {
+	.row {
+		margin: 0 !important;
+		padding: 0 !important;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.stoman-content {
+			h1 {
+				font-size: 50px;
+				color: $stoman-dark-ternary;
+				font-weight: 500;
+				text-transform: uppercase;
+				letter-spacing: 1px;
+			}
+
+			p {
+				font-size: 32px;
+				font-weight: 500;
+				line-height: 36px;
+				color: $stoman-light-gray;
+			}
+		}
+
+		.stoman-developer {
+			text-align: right !important;
+		}
+	}
+}
