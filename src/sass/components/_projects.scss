@@ -33,4 +33,22 @@
 			}
 		}
 	}
+
+	.loadmore-button {
+		button {
+			background: $primary-stoman;
+			color: $stoman-light-primary;
+			border-radius: 15px;
+			border: none;
+			font-size: 19px;
+
+			span {
+				margin-left: 5px !important;
+			}
+
+			&:hover {
+				background: $primary-stoman-hover;
+			}
+		}
+	}
 }
