@@ -2,3 +2,53 @@
 * StomanStrap Portfolio Theme Footer Design File
 * Coded By: @NangialaiStoman
 */
+
+footer {
+	margin-top: 100px !important;
+
+	.stoman-footer {
+		h2 {
+			font-size: 40px;
+			font-weight: 600;
+			color: $stoman-dark-primary;
+			margin: 0 0 40px 0;
+			text-align: center;
+		}
+
+		.social-icons {
+			text-align: center;
+			a {
+				padding: 20px;
+				background: $stoman-light-ternary;
+				border-radius: 5px;
+				margin: 0 10px;
+				text-align: center;
+				color: $stoman-light-gray;
+				text-decoration: none;
+
+				.icon {
+					width: 28px !important;
+					height: 28px;
+				}
+
+				&:hover {
+					color: $primary-stoman;
+					box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 10px;
+				}
+			}
+		}
+
+		.stoman-copyright {
+			margin-top: 100px;
+			font-size: 18px;
+			font-weight: 400;
+			color: $stoman-dark-secondary;
+
+			a {
+				font-weight: 500;
+				color: $stoman-dark-primary;
+				text-decoration: none;
+			}
+		}
+	}
+}

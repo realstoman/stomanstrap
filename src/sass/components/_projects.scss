@@ -1,0 +1,54 @@
+/**
+* StomanStrap Portfolio Theme Projects Cards Design File
+* Coded By: @NangialaiStoman
+*/
+
+.stoman-projects {
+	padding: 30px 15px !important;
+	a {
+		text-decoration: none;
+	}
+	.project-item {
+		border-radius: 25px !important;
+		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+		.item-img img {
+			width: 100% !important;
+			border-radius: 20px 20px 0 0 !important;
+		}
+
+		.item-title {
+			padding: 10px 0 !important;
+			p {
+				font-size: 25px;
+				font-weight: 500;
+				color: $stoman-dark-primary;
+				margin: 0;
+			}
+
+			span {
+				font-size: 18px;
+				font-weight: 500;
+				color: $stoman-dark-ternary;
+			}
+		}
+	}
+
+	.loadmore-button {
+		button {
+			background: $primary-stoman;
+			color: $stoman-light-primary;
+			border-radius: 15px;
+			border: none;
+			font-size: 19px;
+
+			span {
+				margin-left: 5px !important;
+			}
+
+			&:hover {
+				background: $primary-stoman-hover;
+			}
+		}
+	}
+}
