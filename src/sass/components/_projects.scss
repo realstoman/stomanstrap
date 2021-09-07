@@ -3,6 +3,26 @@
 * Coded By: @NangialaiStoman
 */
 
+.projects-heading {
+	padding-top: 50px;
+	margin-bottom: 30px;
+
+	h2 {
+		font-size: 40px;
+		letter-spacing: 3px;
+		font-weight: 600;
+		color: $stoman-dark-secondary;
+	}
+
+	p {
+		font-size: 17px;
+		font-weight: 300;
+		color: $stoman-light-gray;
+		font-family: Arial, Helvetica, sans-serif;
+		letter-spacing: 1.5px;
+	}
+}
+
 .stoman-projects {
 	padding: 30px 15px !important;
 	a {
