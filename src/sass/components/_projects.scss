@@ -53,6 +53,10 @@
 				color: $stoman-dark-ternary;
 			}
 		}
+
+		&:hover {
+			box-shadow: rgba(95, 102, 108, 0.2) 0px 8px 24px;
+		}
 	}
 
 	.loadmore-button {
@@ -69,6 +73,7 @@
 
 			&:hover {
 				background: $primary-stoman-hover;
+				box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 			}
 		}
 	}
