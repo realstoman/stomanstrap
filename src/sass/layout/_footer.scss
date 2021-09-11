@@ -18,7 +18,7 @@ footer {
 		.social-icons {
 			text-align: center;
 			a {
-				padding: 20px;
+				padding: 20px 16px;
 				background: $stoman-light-ternary;
 				border-radius: 5px;
 				margin: 0 10px;
@@ -33,7 +33,7 @@ footer {
 
 				&:hover {
 					color: $primary-stoman;
-					box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 10px;
+					box-shadow: rgba(149, 157, 165, 0.3) 0px 2px 8px;
 				}
 			}
 		}
@@ -48,6 +48,10 @@ footer {
 				font-weight: 500;
 				color: $stoman-dark-primary;
 				text-decoration: none;
+
+				&:hover {
+					color: $primary-stoman;
+				}
 			}
 		}
 	}

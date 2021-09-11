@@ -3,33 +3,61 @@
 * Coded By: @NangialaiStoman
 */
 
+.projects-heading {
+	padding-top: 50px;
+	margin-bottom: 30px;
+
+	h2 {
+		font-size: 40px;
+		letter-spacing: 3px;
+		font-weight: 600;
+		color: $stoman-dark-secondary;
+	}
+
+	p {
+		font-size: 17px;
+		font-weight: 300;
+		color: $stoman-light-gray;
+		font-family: Arial, Helvetica, sans-serif;
+		letter-spacing: 1.5px;
+	}
+}
+
 .stoman-projects {
 	padding: 30px 15px !important;
 	a {
 		text-decoration: none;
 	}
-	.project-item {
-		border-radius: 25px !important;
-		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
-		.item-img img {
-			width: 100% !important;
-			border-radius: 20px 20px 0 0 !important;
-		}
+	.item {
+		.project-item {
+			border-radius: 25px !important;
+			box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
 
-		.item-title {
-			padding: 10px 0 !important;
-			p {
-				font-size: 25px;
-				font-weight: 500;
-				color: $stoman-dark-primary;
-				margin: 0;
+			.item-img img {
+				width: 100% !important;
+				border-radius: 20px 20px 0 0 !important;
 			}
 
-			span {
-				font-size: 18px;
-				font-weight: 500;
-				color: $stoman-dark-ternary;
+			.item-title {
+				padding: 10px 0 30px 0 !important;
+				p {
+					font-size: 25px;
+					font-weight: 500;
+					color: $stoman-dark-primary;
+					margin: 0;
+				}
+
+				span {
+					font-size: 18px;
+					font-weight: 500;
+					color: $stoman-dark-ternary;
+				}
+			}
+
+			&:hover {
+				box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px !important;
+				cursor: pointer;
 			}
 		}
 	}
@@ -48,6 +76,7 @@
 
 			&:hover {
 				background: $primary-stoman-hover;
+				box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 			}
 		}
 	}
