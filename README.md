@@ -21,7 +21,7 @@ A simple portfolio starter theme built on the top of Boostrap V5, Animate CSS & 
 ## Installation
 
 1. Make sure you have Node JS installed. If you don't have it: `npm install -g npm`
-1. Clone the repo: `git clone https://github.com/NangialaiStoman/stomanstrap.git`
+1. Clone the repo: `git clone https://github.com/realstoman/stomanstrap.git`
 1. `cd stomanstrap`
 1. `npm install`
 1. `npm run dev` to start a local dev server at `http://localhost:1234`
